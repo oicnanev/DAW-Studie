@@ -15,7 +15,7 @@ iv. Nas mensagens de pedido e de resposta com um método idempotente**
 
 No protocolo HTTP, o header **Content-Location** tem semântica definida **apenas nas mensagens de resposta** ¹. O header **Content-Location** indica uma localização alternativa para os dados retornados na resposta ¹. O uso mais comum do header **Content-Location** é indicar o URL de um recurso transmitido como resultado da negociação de conteúdo ². O header **Content-Location** é diferente do header **Location**, que indica a URL de um redirecionamento ³.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Content-Location - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Location.
 (2) Location - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/web/http/headers/location.
 (3) Content-Location - HTTP | MDN. http://devdoc.net/web/developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Location.html.
@@ -373,7 +373,7 @@ Browser só entende javascript (vanilla) e não TypeScript e React
 
 ** Indique o que é necessário realizar para que uma aplicação single page application suporte deep-linking**
 
- O uso de Siren pode ser uma solução eficaz para representar entidades e permitir deep-linking em APIs da Web
+O uso de Siren pode ser uma solução eficaz para representar entidades e permitir deep-linking em APIs da Web
 
 ### 5
 
@@ -681,7 +681,7 @@ No contexto da plataforma **Spring MVC**, a escolha entre usar um **servlet filt
 
 Em resumo, escolha um **servlet filter** quando precisar de funcionalidades globais ou de nível mais baixo, e um **handler interceptor** quando precisar de manipulação específica do Spring MVC. Ambos têm seus casos de uso e devem ser escolhidos com base nos requisitos específicos do seu aplicativo.
 
-Source: Conversation with Bing, 1/6/2024
+>Source: Conversation with Bing, 1/6/2024
 (1) HandlerInterceptors vs. Filters in Spring MVC | Baeldung. https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter.
 (2) What is the Difference Between Spring Interceptor and Filter? Explained .... https://coloringfolder.com/what-is-the-difference-between-spring-interceptor-and-filter/.
 (3) Difference between Interceptor and Filter in Spring MVC. https://stackoverflow.com/questions/35856454/difference-between-interceptor-and-filter-in-spring-mvc.
@@ -737,7 +737,7 @@ No contexto da construção de aplicações para a plataforma **browser**, o **W
 
 Em resumo, o Webpack é uma ferramenta poderosa para empacotar e otimizar recursos para uso em navegadores, permitindo que os desenvolvedores criem aplicações mais eficientes e bem organizadas. 🚀🌐
 
-Source: Conversation with Bing, 1/6/2024
+>Source: Conversation with Bing, 1/6/2024
 (1) Why webpack | webpack. https://webpack.js.org/concepts/why-webpack/.
 (2) Concepts | webpack. https://webpack.js.org/concepts/.
 (3) What is Webpack? - Javascript Tutorial. https://www.javascripttutorial.org/what-is-webpack/.
@@ -952,7 +952,7 @@ Aqui está o motivo para essa escolha:
 
 Em resumo, a opção iii é a correta porque fornece uma instância distinta para cada cliente, evitando problemas de compartilhamento de dados e garantindo a consistência no processamento das solicitações.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Scope of a Spring-Controller and its instance-variables. https://stackoverflow.com/questions/11139571/scope-of-a-spring-controller-and-its-instance-variables.
 (2) java - Are new instances of Service, Repository and Component created .... https://stackoverflow.com/questions/67265229/are-new-instances-of-service-repository-and-component-created-for-every-new-req.
 (3) java - Spring MVC RestController scope - Stack Overflow. https://stackoverflow.com/questions/33142344/spring-mvc-restcontroller-scope.
@@ -987,7 +987,7 @@ Aqui está o raciocínio por trás dessa escolha:
 
 Em resumo, a opção iii é a correta porque reflete a ação de atualizar o caminho da URL para `/projects`, o que corresponderia a um pedido de método GET para esse caminho específico em uma single page application.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Blank page error due to location pathname - Stack Overflow. https://stackoverflow.com/questions/46153405/blank-page-error-due-to-location-pathname.
 (2) Deciding on a Page Address with Window.location | Udacity. https://www.udacity.com/blog/2021/05/javascript-window-location.html.
 (3) How-to get the Application path using javascript - Stack Overflow. https://stackoverflow.com/questions/3677338/how-to-get-the-application-path-using-javascript.
@@ -1043,7 +1043,7 @@ No contexto do media type **Siren**, existem diferenças na estrutura e no prop�
 
 Em resumo, **links** são usados para navegação e descoberta de recursos relacionados, enquanto **actions** são usadas para executar operações específicas nos recursos.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) GitHub - kevinswiber/siren: Structured Interface for Representing .... https://github.com/kevinswiber/siren.
 (2) What's different/better/worse than other JSON hypermedia media types .... https://github.com/kevinswiber/siren/issues/15.
 (3) On choosing a hypermedia type for your API - Sookocheff. https://sookocheff.com/post/api/on-choosing-a-hypermedia-format/.
@@ -1081,7 +1081,7 @@ Em resumo:
 
 Para mais informações sobre o React Router, você pode consultar a [documentação oficial](https://reacttraining.com/react-router/web/guides/philosophy). 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) How does React router works and what is the difference between <link .... https://stackoverflow.com/questions/50807929/how-does-react-router-works-and-what-is-the-difference-between-link-androute.
 (2) React Router - W3Schools. https://www.w3schools.com/react/react_router.asp.
 (3) React Router DOM: The Differences Between NavLink, Link, and. https://plainenglish.io/blog/react-router-dom-the-differences-between-navlink-link-and-a.
@@ -1148,7 +1148,7 @@ Para construir aplicações que utilizam bibliotecas fornecidas pelo **NPM** (No
 
 Em resumo, o processo envolve instalar bibliotecas via NPM, empacotá-las usando um bundler, importá-las no código-fonte, transpilar se necessário e executar a aplicação no navegador. Essa abordagem permite aproveitar a rica variedade de bibliotecas disponíveis no ecossistema do NPM para construir aplicações web modernas. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Let's Build a Web App with NPM and Express - This Dot Labs. https://www.thisdot.co/blog/lets-build-a-web-app-with-npm-and-express.
 (2) A Simple Way to Use NPM Library in Browser. https://bartsolutions.github.io/2019/12/27/use-npm-in-browser-js/.
 (3) npm - How to use a node.js library in html? - Stack Overflow. https://stackoverflow.com/questions/38454729/how-to-use-a-node-js-library-in-html.
@@ -1212,7 +1212,7 @@ Quando você acessar `http://localhost:8080/pending`, receberá uma resposta JSO
 }
 ```
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Spring MVC Setup with Kotlin | Baeldung on Kotlin. https://www.baeldung.com/kotlin/spring-mvc-kotlin.
 (2) Resources :: Spring Framework. https://docs.spring.io/spring-framework/reference/core/resources.html.
 (3) The State of Kotlin Support in Spring | The Kotlin Blog. https://blog.jetbrains.com/kotlin/2020/08/the-state-of-kotlin-support-in-spring/.
@@ -1346,7 +1346,7 @@ Explicação do Bing copilot, mas nada indica que é obrigatório:
 
 Em resumo, o `accept=application/json` na solicitação informa ao servidor sobre a preferência do cliente, e o `Content-Type` na resposta indica o formato real do conteúdo retornado. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) HTTP headers "Accept" and "Content-Type" in a REST context. https://stackoverflow.com/questions/35722586/http-headers-accept-and-content-type-in-a-rest-context.
 (2) Content type examples - IBM. https://www.ibm.com/docs/en/hats/9.7.0?topic=content-type-examples.
 (3) HTTP Response API - http.codes. https://http.codes/.
@@ -1388,7 +1388,7 @@ Explicação:
 
 Em resumo, o React Router lida com a navegação internamente, sem fazer solicitações HTTP adicionais. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) React Router v4 - How to get current route? - Stack Overflow. https://stackoverflow.com/questions/42253277/react-router-v4-how-to-get-current-route.
 (2) javascript - Get path params in react-router v4 - Stack Overflow. https://stackoverflow.com/questions/45468837/get-path-params-in-react-router-v4.
 (3) Get the current URL and Route in React and React Router. https://bobbyhadz.com/blog/react-get-current-url.
@@ -1449,7 +1449,7 @@ O conceito de **interface uniforme** no contexto do protocolo HTTP (Hypertext Tr
 
 Em resumo, a interface uniforme no protocolo HTTP simplifica a comunicação, permite a evolução independente de partes do sistema e promove a interoperabilidade entre diferentes serviços. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) REST - What exactly is meant by Uniform Interface?. https://stackoverflow.com/questions/25172600/rest-what-exactly-is-meant-by-uniform-interface.
 (2) Difference Between REST and HTTP | Baeldung on Computer Science. https://www.baeldung.com/cs/rest-vs-http.
 (3) RESTful Statelessness - GeeksforGeeks. https://www.geeksforgeeks.org/restful-statelessness/.
@@ -1483,7 +1483,7 @@ O **header Link**, definido na especificação **RFC 8288 - Web Linking**, tem c
 
 Em resumo, o header Link é uma maneira padronizada de expressar relações entre recursos na Web, permitindo que os clientes descubram e naveguem entre recursos relacionados. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) RFC 8288: Web Linking - RFC Editor. https://www.rfc-editor.org/rfc/rfc8288.
 (2) Information on RFC 8288 » RFC Editor. https://www.rfc-editor.org/info/rfc8288.
 (3) Link - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link.
@@ -1552,7 +1552,7 @@ Quando você acessar `http://localhost:8080/status/GET`, receberá uma resposta 
 ```
 
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Serve Static Resources with Spring | Baeldung. https://www.baeldung.com/spring-mvc-static-resources.
 (2) MockMvc Kotlin DSL | Baeldung on Kotlin. https://www.baeldung.com/kotlin/mockmvc-kotlin-dsl.
 (3) Building web applications with Spring Boot and Kotlin. https://spring.io/guides/tutorials/spring-boot-kotlin/.
@@ -1647,7 +1647,7 @@ In this example:
 
 Remember to adjust the URI and customize error handling according to your specific use case. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Where to make http request on react component - Stack Overflow. https://stackoverflow.com/questions/39092004/where-to-make-http-request-on-react-component.
 (2) How to send HTTP Requests in React | malcoded. https://malcoded.com/posts/react-http-requests-axios/.
 (3) node.js - How do I get http headers in React.js - Stack Overflow. https://stackoverflow.com/questions/44354763/how-do-i-get-http-headers-in-react-js.
@@ -1712,7 +1712,7 @@ Explicação:
 
 Em resumo, a opção iii é a correta porque o Spring reutiliza as instâncias de interceptors existentes, criando novas apenas quando necessário. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Interceptors :: Spring Framework. https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html.
 (2) Using Spring Interceptors in your MVC Webapp - DZone. https://dzone.com/articles/using-spring-interceptors-your.
 (3) Using the Spring RestTemplate Interceptor | Baeldung. https://www.baeldung.com/spring-rest-template-interceptor.
@@ -1736,7 +1736,7 @@ Explicação:
 
 Em resumo, o uso de módulos NPM no sistema CommonJS em navegadores requer uma ferramenta de empacotamento como o Webpack para criar bundles que podem ser executados no navegador. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) How can I 'require' CommonJS modules in the browser?. https://stackoverflow.com/questions/7576001/how-can-i-require-commonjs-modules-in-the-browser.
 (2) Use CommonJS npm packages in the browser with Browserify. https://tsmx.net/npm-packages-browser/.
 (3) node.js - Use npm modules in browser js - Stack Overflow. https://stackoverflow.com/questions/76989552/use-npm-modules-in-browser-js.
@@ -1777,7 +1777,7 @@ Portanto, a resposta correta é **iv. Nenhuma das anteriores**. O primeiro parâ
 ¹: [Referência da API React - createElement](https://react.dev/reference/react/createElement)
 ²: [MDN Web Docs - Document.createElement()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) createElement – React - GitHub Pages. https://react.dev/reference/react/createElement.
 (2) Document.createElement() - APIs da Web | MDN - MDN Web Docs. https://bing.com/search?q=O+primeiro+parametro+da+funcao+createElement+da+biblioteca+React+e.
 (3) Document.createElement() - APIs da Web | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement.
@@ -1796,7 +1796,7 @@ Em APIs HTTP, **métodos idempotentes** oferecem várias vantagens importantes:
 
 Portanto, a utilização de métodos idempotentes é uma prática recomendada para projetar APIs HTTP confiáveis e robustas.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) What Are Idempotent HTTP Methods? - DEV Community. https://blog.savetchuk.com/what-are-idempotent-http-methods.
 (2) Idempotence – Definirtec. https://definirtec.com/idempotence/.
 (3) Idempotente - Glossário do MDN Web Docs: Definições de termos .... https://developer.mozilla.org/pt-BR/docs/Glossary/Idempotent.
@@ -1857,7 +1857,7 @@ Em **Single Page Applications (SPAs)**, o método `preventDefault()` é frequent
 
 Portanto, o uso de `preventDefault()` permite que você controle o comportamento do evento e execute suas próprias ações personalizadas em SPAs.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Understanding React's preventdefault() | sebhastian. https://sebhastian.com/react-preventdefault/.
 (2) Event: preventDefault() method - Web APIs | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault.
 (3) preventDefault() Event Method - W3Schools. https://www.w3schools.com/jsref/event_preventdefault.asp.
@@ -1972,7 +1972,7 @@ class FailureController(
 
 Esse código é apenas um exemplo e pode ser adaptado conforme as necessidades do projeto. Espero que tenha sido útil. 😊
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Spring MVC Setup with Kotlin | Baeldung on Kotlin. https://www.baeldung.com/kotlin/spring-mvc-kotlin.
 (2) Kotlin :: Spring Framework. https://docs.spring.io/spring-framework/reference/languages/kotlin.html.
 (3) spring-mvc · GitHub Topics · GitHub. https://github.com/topics/spring-mvc?l=kotlin.
@@ -2063,7 +2063,7 @@ Esse código é apenas um exemplo e pode ser adaptado conforme as necessidades d
 ²: [React - Uma biblioteca JavaScript para criar interfaces de usuário](https://reactjs.org/)
 ³: [MDN Web Docs - JSX](https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#jsx)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) React List component - Material UI. https://mui.com/material-ui/react-list/.
 (2) How to Use URLs for State Management in React - freeCodeCamp.org. https://www.freecodecamp.org/news/how-to-use-urls-for-state-management-in-react/.
 (3) React Native List Views – Introdução e Exemplo - DEV Community. https://dev.to/alexandrefreire/react-native-list-views-introducao-e-exemplo-14d7.
@@ -2088,7 +2088,7 @@ Portanto, o método **DELETE** é não safe e idempotente, pois ele remove um re
 ¹: [MDN Web Docs - Métodos de requisição HTTP](^2^)
 ²: [MDN Web Docs - DELETE](^1^)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) DELETE - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/DELETE.
 (2) Métodos de requisição HTTP - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods.
 (3) Métodos de requisição HTTP - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods.
@@ -2126,7 +2126,7 @@ Portanto, a interface uniforme significa que os clientes e servidores usam um co
 : [MDN Web Docs - Tipos de mídia HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 : [MDN Web Docs - Métodos de requisição HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) REST - What exactly is meant by Uniform Interface?. https://stackoverflow.com/questions/25172600/rest-what-exactly-is-meant-by-uniform-interface.
 (2) Uma visão geral do HTTP - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview.
 (3) Identificando recursos na web - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web.
@@ -2166,7 +2166,7 @@ Portanto, a forma que eu sugiro para comunicar informação de erro específica 
 ²: [MDN Web Docs - Códigos de status de respostas HTTP](^2^)
 ³: [MDN Web Docs - JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Como melhorar a comunicação de erros em APIs HTTP — Parte 1. https://medium.com/gbtech/como-melhorar-a-comunica%C3%A7%C3%A3o-de-erros-em-apis-http-parte-1-4323fb694e41.
 (2) Como lidar com erros em APIs Web do ASP.NET Core. https://learn.microsoft.com/pt-br/aspnet/core/web-api/handle-errors?view=aspnetcore-8.0.
 (3) Códigos de status de respostas HTTP - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status.
@@ -2203,7 +2203,7 @@ Portanto, a forma de suportar deep-linking no contexto de uma SPA é configurar 
 ³: [MDN Web Docs - Manipulando o histórico do navegador](https://developer.mozilla.org/pt-BR/docs/Web/API/History_API)
 ⁴: [React Router - Declarative Routing for React.js](https://reactrouter.com/)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) single page application deep linking with login page. https://stackoverflow.com/questions/17356919/single-page-application-deep-linking-with-login-page.
 (2) single page application deep linking with login page. https://stackoverflow.com/questions/17356919/single-page-application-deep-linking-with-login-page.
 (3) Single Page Applications. https://web.stanford.edu/class/cs142/lectures/SPA.pdf.
@@ -2267,7 +2267,7 @@ Portanto, a avaliação da expressão JSX `<A><p>Hello</p></A>` é equivalente �
 
 ¹: [React - O que é JSX](^3^)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) javascript - ReactJS - .JS vs .JSX - Stack Overflow. https://stackoverflow.com/questions/46169472/reactjs-js-vs-jsx.
 (2) React - O que é JSX - DEV Community. https://dev.to/nascimento_/react-o-que-e-jsx-3032.
 (3) TypeScript: Documentation - JSX. https://www.typescriptlang.org/pt/docs/handbook/jsx.html.
@@ -2330,7 +2330,7 @@ Portanto, a resposta correta é a opção iii. Pode ser chamada dentro de outra 
 ¹: [React - Hooks](^1^)
 ²: [React - Regras dos Hooks](^2^)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) React Hooks: o que é e como funcionam? | Alura. https://www.alura.com.br/artigos/react-hooks.
 (2) Introdução aos Hooks – React. https://pt-br.legacy.reactjs.org/docs/hooks-intro.html.
 (3) React Hooks: o que é e como funcionam? | Alura. https://www.alura.com.br/artigos/react-hooks.
@@ -2353,7 +2353,7 @@ A anotação @Component é uma forma de indicar ao Spring que uma classe é um b
 
 A anotação @Component é uma das chamadas anotações estereotipadas do Spring, que servem para marcar as classes como candidatas à detecção automática e configuração baseada em anotações. Outras anotações estereotipadas são @Repository, @Service e @Controller, que são especializações de @Component com usos e significados específicos fora do contexto de auto-detecção ou injeção de dependência¹².
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Spring @Component Annotation | Baeldung. https://www.baeldung.com/spring-component-annotation.
 (2) O que faz a anotação @Component? - Stack Overflow em Português. https://pt.stackoverflow.com/questions/117109/o-que-faz-a-anota%C3%A7%C3%A3o-component.
 (3) O que faz a anotação @Component? - Stack Overflow em Português. https://bing.com/search?q=anota%c3%a7%c3%a3o+%40Component+Spring.
@@ -2377,7 +2377,7 @@ Portanto, uma ferramenta como o webpack ainda tem relevância para se usar com o
 ²: [How to transpile ES modules with webpack and Node.js](^2^)
 ³: [webpack - A bundler for javascript and friends](https://webpack.js.org/)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) ECMAScript Modules | webpack. https://webpack.js.org/guides/ecma-script-modules/.
 (2) How to transpile ES modules with webpack and Node.js. https://blog.logrocket.com/transpile-es-modules-with-webpack-node-js/.
 (3) javascript - Webpack 5 and ESM - Stack Overflow. https://stackoverflow.com/questions/64944796/webpack-5-and-esm.
@@ -2497,7 +2497,7 @@ Esse código é apenas um exemplo e pode ser adaptado conforme as necessidades d
 ¹: [Spring MVC - A biblioteca para criar aplicações web com o Spring Framework](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html)
 ²: [JSON - Um formato leve de troca de dados](https://www.json.org/json-pt.html)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Guide to Spring Handler Mappings | Baeldung. https://www.baeldung.com/spring-handler-mappings.
 (2) 17. Web MVC framework - Spring | Home. https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html.
 (3) what's difference between Controller and Handler in Spring MVC?. https://stackoverflow.com/questions/30165625/whats-difference-between-controller-and-handler-in-spring-mvc.
@@ -2580,7 +2580,7 @@ Esse código é apenas um exemplo e pode ser adaptado conforme as necessidades d
 ²: [React - Uma biblioteca JavaScript para criar interfaces de usuário](^2^)
 ³: [MDN Web Docs - JSX](^3^)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Bibliotecas de Componentes React UI: Nossas Melhores Escolhas para 2024. https://kinsta.com/pt/blog/bibliotecas-de-componentes-react/.
 (2) frontend react para consumo da API de pedidos - GitHub. https://github.com/lipilemos/TEST_SITE_Pedidos.
 (3) DanielSoaresRocha/Sistema-de-Pedidos-Frontend - GitHub. https://github.com/DanielSoaresRocha/Sistema-de-Pedidos-Frontend.
@@ -2653,7 +2653,7 @@ ii. Um pedido safe e não idempotente.
 iii. Um pedido não safe e idempotente.
 iv. Um pedido safe e idempotente.**
 
-iv
+> iv
 
 ### 1.2
 
@@ -2665,7 +2665,8 @@ iii. Uma resposta de sucesso ou de náo sucesso, dependendo do valor do campo ty
 iv. Nenhuma das anteriores.
 **
 
-i
+> i
+
 Se tem 200 OK deve ser interpretada por um intermediário como sendo uma resposta de sucesso
 
 ### 1.3
@@ -2676,13 +2677,13 @@ ii. Um valor booleano que indica se o URI para o destino é absoluto ou relativo
 iii. O identificador do recurso alvo do link.
 iv. Nenhuma das anteriores.**
 
-iv ou i PERGUNTAR!!!
+> iv ou i PERGUNTAR!!!
 
 O campo **rel** presente num header **Link** é usado para indicar relações entre o recurso atual e outros recursos ¹. O campo **rel** especifica o tipo de relação que o link tem com o recurso atual ¹. Por exemplo, o valor **stylesheet** indica que o link é um estilo para o documento atual ¹. O campo **href** especifica o URI do recurso alvo do link ¹.
 
 Espero ter ajudado! Se você tiver mais alguma dúvida, por favor, não hesite em perguntar.
 
-Source: Conversation with Bing, 1/7/2024
+> Source: Conversation with Bing, 1/7/2024
 (1) HTML link rel Attribute - W3Schools. https://www.w3schools.com/tags/att_link_rel.asp.
 (2) LinkHeader - W3C Wiki - World Wide Web Consortium (W3C). https://www.w3.org/wiki/LinkHeader.
 (3) HTML a rel Attribute - W3Schools. https://www.w3schools.com/TAGS/att_a_rel.asp.
@@ -2700,11 +2701,11 @@ ii. Ocorre sempre no contexto da thread associada à instância sobre a qual é 
 iii. Ocorre sempre no contexto da thread associada ao pedido HTTP que resultou nesta chamada.
 iv. Ocorre sempre no contexto da thread associada ao handler que vai processar o pedido HTTP.**
 
-iii
+> iii
 
 No contexto da utilização da biblioteca **Spring MVC**, a execução da função **doFilter** pertencente à interface **HttpFilter** ocorre sempre no contexto da **thread associada ao pedido HTTP que resultou nesta chamada** ². O método **doFilter** é usado para interceptar solicitações HTTP e manipular a resposta antes de enviá-la de volta ao cliente ¹. O método **doFilter** é chamado pelo contêiner do servlet para permitir que um filtro processe a solicitação e a resposta ¹. O contêiner do servlet cria uma nova thread para cada solicitação HTTP recebida e chama o método **doFilter** nessa thread ².
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) RequestContextFilter (Spring Framework 6.1.2 API). https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/filter/RequestContextFilter.html.
 (2) spring mvc - Logging MDC with @Async and TaskDecorator - Stack Overflow. https://stackoverflow.com/questions/45890181/logging-mdc-with-async-and-taskdecorator.
 (3) java - How to use Multithreading concept in Spring MVC for subsequent .... https://stackoverflow.com/questions/39200587/how-to-use-multithreading-concept-in-spring-mvc-for-subsequent-operations.
@@ -2733,11 +2734,11 @@ ii. Na apresentação do valor 0, seguida do valor 1 após 1000 milisegundos.
 iii. Na apresentação de um valor numérico, incrementado a cada 1000 milisegundos.
 iv. Nenhuma das anteriores**
 
-iii
+> iii
 
 A colocação do componente **Counter** resulta na apresentação de um valor numérico, incrementado a cada 1000 milisegundos ¹. O componente **Counter** é implementado usando os hooks **useState** e **useEffect** da biblioteca React ¹. O hook **useState** é usado para declarar uma variável de estado **value** e seu valor inicial é definido como **0** ¹. O hook **useEffect** é usado para executar um efeito colateral, que é a atualização do valor do estado **value** a cada 1000 milisegundos ¹. O valor do estado **value** é atualizado usando a função **setValue** ¹. A função **setValue** é chamada com o valor atualizado do estado **value** a cada 1000 milisegundos ¹. O valor atualizado do estado **value** é então renderizado na tela ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Use React hook to implement a self-increment counter. https://stackoverflow.com/questions/53395147/use-react-hook-to-implement-a-self-increment-counter.
 (2) React Increment Counter using Hooks – Contact Mentor. https://contactmentor.com/react-increment-counter-hooks/.
 (3) How to increase values of different counters when i click different .... https://altcademy.com/blog/how-to-increase-values-of-different-counters-when-i-click-different-buttons-in-reactjs/.
@@ -2754,11 +2755,11 @@ ii. de método GET, usando o URL https://example.com/index.html.
 iii. de método GET, usando o URL https://example.com/games?id=123.
 iv. o browser não realiza nenhum pedido HTTP.**
 
-iii
+> iii
 
 Quando uma **single page application** suporta **deep linking** e o utilizador introduz directamente o URL https://example.com/games?id=123 (e.g. activando um bookmark), o browser faz sempre um pedido HTTP **de método GET, usando o URL https://example.com/games?id=123** ¹. Quando o utilizador introduz um URL no navegador, o navegador envia um pedido HTTP para o servidor para obter a página correspondente ². O método HTTP padrão para solicitar recursos é o método **GET** ². O URL que o navegador envia no pedido HTTP é o URL completo que o utilizador introduziu, incluindo quaisquer parâmetros de consulta ². No caso do exemplo fornecido, o URL completo é https://example.com/games?id=123, portanto, o navegador envia um pedido HTTP **de método GET, usando o URL https://example.com/games?id=123** ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Single Page Applications. https://web.stanford.edu/class/cs142/lectures/SPA.pdf.
 (2) Using Hashed vs. Non-Hashed URL Paths in Single Page Apps. https://blog.bitsrc.io/using-hashed-vs-nonhashed-url-paths-in-single-page-apps-a66234cefc96.
 (3) How to redirect non supported Deep-link URL to Browser. https://stackoverflow.com/questions/37428206/how-to-redirect-non-supported-deep-link-url-to-browser.
@@ -2778,7 +2779,7 @@ O campo **rel** presente num header **Link** é usado para indicar relações en
 
 O valor **self** é um tipo de relação que indica que o link aponta para o próprio recurso ¹. O uso do link relation **self** é importante em APIs HTTP que usam **hypermedia** para permitir que os clientes descubram e naveguem pelos recursos disponíveis ¹. O link relation **self** fornece um URI que identifica exclusivamente o recurso atual ¹. Isso permite que os clientes recuperem o recurso atual, atualizem o recurso atual ou excluam o recurso atual usando o método HTTP apropriado ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) What is the importance of the self link in hypermedia APIs?. https://stackoverflow.com/questions/14185011/what-is-the-importance-of-the-self-link-in-hypermedia-apis.
 (2) How to reference a resource in a update-request of a hypermedia api?. https://stackoverflow.com/questions/63365589/how-to-reference-a-resource-in-a-update-request-of-a-hypermedia-api.
 (3) Hypermedia Compliant API. https://docs.oracle.com/cd/E93130_01/service_layer/service%20layer%20API/Content/Introduction/Hypermedia%20Compliant%20API.htm.
@@ -2799,7 +2800,7 @@ A utilização de métodos idempotentes em APIs HTTP tem várias vantagens. Algu
 
 - **Facilidade de uso**: Como os métodos idempotentes são previsíveis e não têm efeitos colaterais, eles são mais fáceis de usar e entender⁴. Isso pode ajudar a reduzir a curva de aprendizado para novos desenvolvedores e melhorar a produtividade geral.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Idempotente - Glossário do MDN Web Docs: Definições de termos .... https://developer.mozilla.org/pt-BR/docs/Glossary/Idempotent.
 (2) Idempotency - What is an Idempotent REST API?. https://restfulapi.net/idempotent-rest-apis/.
 (3) What Are Idempotent HTTP Methods? - DEV Community. https://blog.savetchuk.com/what-are-idempotent-http-methods.
@@ -2862,7 +2863,7 @@ class AppConfig : WebMvcConfigurer {
 
 Neste exemplo, o interceptor personalizado é registrado no método **addInterceptors** da classe **AppConfig** ¹. Isso garante que o interceptor seja aplicado a todos os pedidos HTTP recebidos pelo aplicativo Spring MVC ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) How to log properly http requests with Spring MVC. https://stackoverflow.com/questions/6631257/how-to-log-properly-http-requests-with-spring-mvc.
 (2) Spring - Log Incoming Requests | Baeldung. https://www.baeldung.com/spring-http-logging.
 (3) Logging all request and responses using Spring Boot Actuator. https://stackoverflow.com/questions/52926974/logging-all-request-and-responses-using-spring-boot-actuator.
@@ -2950,7 +2951,7 @@ function App() {
 
 Neste exemplo, a função **f** retorna uma promise que é avaliada para obter o fulfillment value ou a rejection reason da promise ¹. O componente **PromiseComponent** é usado para apresentar o resultado da avaliação da promise ¹. Quando o botão é clicado, o contador é incrementado e a função **f** é chamada novamente para avaliar a promise ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) How to Handle Promises in React - Upmostly. https://upmostly.com/tutorials/how-to-handle-promises-in-react.
 (2) GitHub - capaj/react-promise: a react.js hook for general promise in .... https://github.com/capaj/react-promise.
 (3) How to Render React Components with Promises Inside?. https://thewebdev.info/2021/09/25/how-to-render-react-components-with-promises-inside/.
@@ -2981,7 +2982,7 @@ function Example() {
 }
 ```
 
-Claro! Aqui está a implementação da função `useInput` que você solicitou:
+Implementação da função `useInput`:
 
 ```jsx
 import { useState } from 'react';
@@ -3012,7 +3013,7 @@ function Example() {
 
 Neste exemplo, a função `useInput` é chamada com um valor inicial vazio `""` e os valores de estado retornados são desestruturados em `value` e `handler`. O valor atual do estado é usado como o valor do campo de entrada e o manipulador de mudança é usado para atualizar o valor do estado sempre que o usuário digita algo no campo de entrada.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) reactjs - React(Typescript) onchange event type - Stack Overflow. https://stackoverflow.com/questions/62591811/reacttypescript-onchange-event-type.
 (2) Typescript input onchange event.target.value - Stack Overflow. https://stackoverflow.com/questions/40676343/typescript-input-onchange-event-target-value.
 (3) How to use and specify Generic Hooks in React with Typescript?. https://stackoverflow.com/questions/65214132/how-to-use-and-specify-generic-hooks-in-react-with-typescript.
@@ -3028,7 +3029,7 @@ ii. Solicita a criação de um recurso com URI https://example.com/games/{id}, o
 iii. Solicita uma representação do recurso com URI https://example.com/games/create.
 iv. Deve resultar sempre numa resposta com status code 405 (method not allowed).**
 
-iii
+> iii
 
 ### 1.2
 
@@ -3039,11 +3040,11 @@ ii. Uma resposta de não sucesso.
 iii. Uma resposta de sucesso ou de não sucesso, dependendo do valor do campo type presente na representação.
 iv. Nenhuma das anteriores.**
 
-ii
+> ii
 
 Uma mensagem de resposta HTTP com status code igual a **401** e **Content-Type** igual a **application/problem+json** deve ser interpretada por um intermediário como sendo **uma resposta de não sucesso** ³. O código de status **401** indica que a solicitação não foi concluída porque o cliente não possui credenciais de autenticação válidas para o recurso solicitado ³. O **Content-Type** é um cabeçalho HTTP que indica o tipo de mídia da representação de uma resposta HTTP. O valor **application/problem+json** é um tipo de mídia definido pelo grupo de trabalho de aplicativos HTTP da IETF para representar problemas HTTP ¹. O uso do tipo de mídia **application/problem+json** indica que a resposta contém informações sobre um problema que ocorreu durante o processamento da solicitação ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) 401 Unauthorized - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401.
 (2) The application/problem+json Content-Type - SymfonyCasts. https://symfonycasts.com/screencast/rest/application-problem.
 (3) HTTP status and error codes for JSON - Google Cloud. https://cloud.google.com/storage/docs/json_api/v1/status-codes.
@@ -3057,13 +3058,13 @@ ii. O media-type potencialmente recebido na resposta a um pedido ao recurso alvo
 iii. Um valor booleano que indica se o URI para o destino é absoluto ou relativo.
 iv. Nenhuma das anteriores.**
 
-iv
+> iv
 
 O campo **rel** presente num header **Link** é usado para indicar relações entre o recurso atual e outros recursos ¹. O campo **rel** especifica o tipo de relação que o link tem com o recurso atual ¹. Por exemplo, o valor **stylesheet** indica que o link é um estilo para o documento atual ¹. O campo **href** especifica o URI do recurso alvo do link ¹.
 
 O valor **rel** não representa o identificador do recurso alvo do link ou o media-type potencialmente recebido na resposta a um pedido ao recurso alvo do link ¹. O valor **rel** indica o tipo de relação que o link tem com o recurso atual ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Link - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link.
 (2) LinkHeader - W3C Wiki - World Wide Web Consortium (W3C). https://www.w3.org/wiki/LinkHeader.
 (3) HTML attribute: rel - HTML: HyperText Markup Language | MDN. https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel.
@@ -3084,11 +3085,11 @@ ii. E criada sempre uma nova instância dum controller por cada pedido.
 iii. Apenas são criadas novas instâncias de controller quando todas as instâncias existentes estiverem a ser usadas.
 iv. Não são criadas instâncias de controller porque todos os métodos têm de pertencer ao companion object.**
 
-i
+> i
 
 Na biblioteca Spring MVC e na configuração por omissão, é usada apenas **uma instância por cada tipo de controller** ¹. Isso significa que, por padrão, o contêiner do Spring cria apenas uma instância de cada classe de controlador e a reutiliza para todos os pedidos HTTP recebidos pelo aplicativo ¹. Essa abordagem é conhecida como escopo de singleton e é usada para garantir que os controladores sejam eficientes e escaláveis ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Scope of a Spring-Controller and its instance-variables. https://stackoverflow.com/questions/11139571/scope-of-a-spring-controller-and-its-instance-variables.
 (2) how to create a controller based on auto configuration spring boot 1.4. .... https://stackoverflow.com/questions/39552060/how-to-create-a-controller-based-on-auto-configuration-spring-boot-1-4-0.
 (3) How to set default handler method in controller in Spring mvc?. https://stackoverflow.com/questions/28430665/how-to-set-default-handler-method-in-controller-in-spring-mvc.
@@ -3117,7 +3118,7 @@ ii. Na apresentação do valor 0, seguida do valor 1 após 1000 milissegundos.
 iii. Na apresentação de um valor numérico, incrementado a cada 1000 milissegundos.
 iv. Nenhuma das anteriores**
 
-iii
+> iii
 
 A colocação deste componente resulta na apresentação de um valor numérico, incrementado a cada 1000 milissegundos. O componente é implementado usando os hooks `useState` e `useEffect` da biblioteca React. O hook `useState` é usado para declarar uma variável de estado `value` e seu valor inicial é definido como `0`. O hook `useEffect` é usado para executar um efeito colateral, que é a atualização do valor do estado `value` a cada 1000 milissegundos. O valor do estado `value` é atualizado usando a função `setValue`. A função `setValue` é chamada com o valor atualizado do estado `value` a cada 1000 milissegundos. O valor atualizado do estado `value` é então renderizado na tela.
 
@@ -3129,11 +3130,11 @@ ii. de método GET, usando o URL https://example.com/.
 iii. de método GET, usando o URL https://example.com/games.
 iv. de método GET, usando o URL https://example.com/games?id=123
 
-iv
+> iv
 
 Quando uma **single page application** suporta **deep linking** e o utilizador introduz directamente o URL https://example.com/games?id=123 (e.g. activando um bookmark), o browser faz sempre um pedido HTTP **de método GET, usando o URL https://example.com/games?id=123** ¹. Quando o utilizador introduz um URL no navegador, o navegador envia um pedido HTTP para o servidor para obter a página correspondente ². O método HTTP padrão para solicitar recursos é o método **GET** ². O URL que o navegador envia no pedido HTTP é o URL completo que o utilizador introduziu, incluindo quaisquer parâmetros de consulta ². No caso do exemplo fornecido, o URL completo é https://example.com/games?id=123, portanto, o navegador envia um pedido HTTP **de método GET, usando o URL https://example.com/games?id=123** ¹.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Single Page Applications. https://web.stanford.edu/class/cs142/lectures/SPA.pdf.
 (2) Using Hashed vs. Non-Hashed URL Paths in Single Page Apps. https://blog.bitsrc.io/using-hashed-vs-nonhashed-url-paths-in-single-page-apps-a66234cefc96.
 (3) How to redirect non supported Deep-link URL to Browser. https://stackoverflow.com/questions/37428206/how-to-redirect-non-supported-deep-link-url-to-browser.
@@ -3159,7 +3160,7 @@ A utilização de métodos idempotentes em APIs HTTP tem várias vantagens. Algu
 
 - **Facilidade de uso**: Como os métodos idempotentes são previsíveis e não têm efeitos colaterais, eles são mais fáceis de usar e entender⁴. Isso pode ajudar a reduzir a curva de aprendizado para novos desenvolvedores e melhorar a produtividade geral.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Idempotente - Glossário do MDN Web Docs: Definições de termos .... https://developer.mozilla.org/pt-BR/docs/Glossary/Idempotent.
 (2) Idempotency - What is an Idempotent REST API?. https://restfulapi.net/idempotent-rest-apis/.
 (3) What Are Idempotent HTTP Methods? - DEV Community. https://blog.savetchuk.com/what-are-idempotent-http-methods.
@@ -3181,7 +3182,7 @@ Portanto, uma ferramenta como o webpack ainda tem relevância para se usar com o
 ²: [How to transpile ES modules with webpack and Node.js](^2^)
 ³: [webpack - A bundler for javascript and friends](https://webpack.js.org/)
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) ECMAScript Modules | webpack. https://webpack.js.org/guides/ecma-script-modules/.
 (2) How to transpile ES modules with webpack and Node.js. https://blog.logrocket.com/transpile-es-modules-with-webpack-node-js/.
 (3) javascript - Webpack 5 and ESM - Stack Overflow. https://stackoverflow.com/questions/64944796/webpack-5-and-esm.
@@ -3192,7 +3193,7 @@ Source: Conversation with Bing, 1/7/2024
 
 **Realize um ou mais componentes para a plataforma Spring MVC, de forma a que um recurso seja exposto no caminho /errors. Um pedido de método GET para esse recurso deve retornar uma mensagem com uma representação contendo um objeto JSON. Esse objeto deve representar os pedidos processados nos últimos 10 minutos e que resultaram numa resposta com status code igual a 500 A representação de cada pedido deve incluir: o momento em que o pedido foi recebido, o método do pedido, o URI do pedido, e o nome do controlador e do método responsável pelo processamento desse pedido (caso o processamento tenha sido realizado por um controlador).**
 
-Claro! Aqui está um exemplo de como implementar um componente Spring MVC em Kotlin que expõe um recurso no caminho `/errors` e retorna uma mensagem com uma representação contendo um objeto JSON. Esse objeto representa os pedidos processados nos últimos 10 minutos e que resultaram em uma resposta com status code igual a 500. A representação de cada pedido inclui o momento em que o pedido foi recebido, o método do pedido, o URI do pedido e o nome do controlador e do método responsável pelo processamento desse pedido (caso o processamento tenha sido realizado por um controlador):
+Exemplo de como implementar um componente Spring MVC em Kotlin que expõe um recurso no caminho `/errors` e retorna uma mensagem com uma representação contendo um objeto JSON. Esse objeto representa os pedidos processados nos últimos 10 minutos e que resultaram em uma resposta com status code igual a 500. A representação de cada pedido inclui o momento em que o pedido foi recebido, o método do pedido, o URI do pedido e o nome do controlador e do método responsável pelo processamento desse pedido (caso o processamento tenha sido realizado por um controlador):
 
 ```kotlin
 import org.springframework.http.HttpStatus
@@ -3247,7 +3248,7 @@ Nesta implementação, a classe `ErrorController` é um controlador Spring MVC q
 
 Para usar o componente `ErrorController`, basta injetá-lo em outros componentes Spring MVC e chamar o método `addError` sempre que ocorrer um erro com status code igual a 500.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Passing JSON objects in a REST HTTP GET request using Spring MVC. https://stackoverflow.com/questions/24551412/passing-json-objects-in-a-rest-http-get-request-using-spring-mvc.
 (2) Parsing json into java objects in spring-mvc - Stack Overflow. https://stackoverflow.com/questions/3921736/parsing-json-into-java-objects-in-spring-mvc.
 (3) Rendering Exceptions in JSON with Spring | Baeldung. https://www.baeldung.com/spring-exceptions-json.
@@ -3341,7 +3342,7 @@ function App() {
 
 Neste exemplo, a função `f` retorna uma promise que é avaliada para obter o fulfillment value ou a rejection reason da promise. O componente `PromiseComponent` é usado para apresentar o resultado da avaliação da promise. Quando o botão é clicado, a função `f` é chamada novamente para avaliar a promise.
 
-Source: Conversation with Bing, 1/7/2024
+>Source: Conversation with Bing, 1/7/2024
 (1) Pass React Native Promise between activities on Android [Kotlin]. https://stackoverflow.com/questions/48815234/pass-react-native-promise-between-activities-on-android-kotlin.
 (2) Promise in Kotlin with Android - Stack Overflow. https://stackoverflow.com/questions/58319868/promise-in-kotlin-with-android.
 (3) How to create a Promise from the nested kotlin.js.Promise?. https://stackoverflow.com/questions/44544125/how-to-create-a-promise-from-the-nested-kotlin-js-promise.
