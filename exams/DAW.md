@@ -43,9 +43,9 @@ ii. Uma vez por cada pedido HTTP processado por um handler presente nessa classe
 iii. Uma vez por cada utilizador distinto.
 iv. Uma vez por cada instância da aplicação.**
 
-> ii ou iv (perguntar ao prof)
+> iv
 
-O construtor de uma classe anotada com @RestController na plataforma Spring MVC é chamado uma vez por cada pedido HTTP processado por um handler presente nessa classe
+O construtor de uma classe anotada com @RestController na plataforma Spring MVC é chamado uma vez por cada instância da aplicação
 
 ### 1.4 
 
@@ -78,6 +78,19 @@ iii. Na realização de um pedido HTTP de método GET para o caminho ‘/project
 iv. Na realização de um pedido HTTP de método GET para o caminho ‘/projects.html’.**
 
 > iii
+
+
+
+Explicação do professor:
+
+- usar a API de location afetando o pathname realiza sempre um novo pedido
+- já na API history (para navegação no broser), não efetua pedido
+
+
+
+Explicação do Bing copilot:
+
+
 
 Na avaliação da expressão window.location.pathname = ’/projects’ em uma single page application, a realização de um pedido HTTP de método GET para o caminho ‘/projects’ é o resultado correto.
 
@@ -878,7 +891,7 @@ ii. Os identificadores de recurso estão presentes no caminho e não na query st
 iii. O mesmo media type tem de ser usado em todas as respostas.
 iv. Os únicos métodos que podem ser usados são o POST and GET.**
 
-> ii
+> i
 
 - O conceito de **interface uniforme** no protocolo HTTP é uma das restrições fundamentais definidas por Roy Fielding em sua tese de doutorado.
 - A interface uniforme tem quatro princípios:
@@ -886,7 +899,6 @@ iv. Os únicos métodos que podem ser usados são o POST and GET.**
   2. **Manipulação de Recursos através de Representações**: Os clientes manipulam recursos por meio de representações (como HTML, JSON etc.) obtidas por meio de requisições HTTP.
   3. **Mensagens Autodescritivas**: As mensagens HTTP contêm informações suficientes para que os destinatários entendam como processar a mensagem.
   4. **Hiperlinks**: As representações contêm links (hiperlinks) para outros recursos relacionados.
-- A opção **ii** está alinhada com o primeiro princípio da interface uniforme, que enfatiza a identificação de recursos por meio de URIs no caminho (não na query string).
 
 Em resumo, a interface uniforme no HTTP promove a identificação clara dos recursos por meio de URIs no caminho e incentiva o uso consistente de representações e hiperlinks.
 
@@ -898,7 +910,7 @@ ii. Pode ter um payload usando um qualquer media type.
 iii. Tem de ter um payload usando o media type application/problem+json.
 iv. Tem de ter um payload usando o media type application/json**
 
-> ii (mas é recomendado iii) PERGUNTAR AO PROF
+> ii
 
 A utilização do media type `application/problem+json` é recomendada porque fornece um formato padronizado para comunicar informações detalhadas sobre o erro. No entanto, em teoria, **não há uma restrição absoluta** que impeça o uso de **outros tipos de payload** em uma resposta de **status code 400**.
 
@@ -914,7 +926,9 @@ ii. Tem de resultar numa mensagem de resposta com Content-Type igual a text/json
 iii. Tem de resultar numa mensagem de resposta com Content-Type igual a application/json ou a application/problem+json.
 iv. Pode resultar numa mensagem de resposta com qualque valor de Content-Type.**
 
-> iv (mas é recomendado iii) PERGUNTAR AO PROF
+> iv (mas é recomendado iii) 
+
+**Em caso de dúvidas, o professor disse para escrevermos o nosso raciocínio a fomentar a escolha**
 
 Claro, é possível retornar **qualquer tipo de Content-Type** em uma resposta HTTP. No entanto, é importante seguir as convenções e as melhores práticas para garantir a interoperabilidade e a compreensão adequada entre os sistemas.
 
@@ -936,9 +950,9 @@ ii. Uma instância distinta por pedido.
 iii. Uma instância distinta por cada ligaçãao de um cliente.
 iv. O menor número de instâncias, de**
 
-> i ou iii (PERGUNTAR AO PROF)
+> i
 
-A resposta correta é a **opção iii**: uma classe anotada com `@RestController` na plataforma Spring MVC terá **uma instância distinta por cada ligação de um cliente**.
+
 
 Aqui está o motivo para essa escolha:
 
@@ -946,11 +960,11 @@ Aqui está o motivo para essa escolha:
 
 2. **Uma instância distinta por pedido**: Embora seja possível configurar controladores com escopo de requisição (request scope), essa não é a configuração padrão. Controladores com escopo de requisição seriam criados separadamente para cada solicitação, mas essa não é a abordagem padrão.
 
-3. **Uma instância distinta por cada ligação de um cliente**: Essa é a configuração padrão e mais apropriada para controladores Spring MVC. Cada cliente (ou conexão) receberá uma instância independente do controlador. Isso garante que os dados não sejam compartilhados entre diferentes clientes.
+3. **Uma instância distinta por cada ligação de um cliente**: Essa é a configuração padrão e mais apropriada para handlers Spring MVC (@GetMapping, @PostMapping, @RequestMapping). Cada cliente (ou conexão) receberá uma instância independente do controlador. Isso garante que os dados não sejam compartilhados entre diferentes clientes.
 
 4. **O menor número de instâncias para evitar uso simultâneo por threads diferentes**: Embora seja uma preocupação válida, o escopo padrão de singleton é otimizado para minimizar o uso de recursos e garantir a reutilização eficiente das instâncias.
 
-Em resumo, a opção iii é a correta porque fornece uma instância distinta para cada cliente, evitando problemas de compartilhamento de dados e garantindo a consistência no processamento das solicitações.
+Em resumo, a opção i é a correta.
 
 >Source: Conversation with Bing, 1/7/2024
 (1) Scope of a Spring-Controller and its instance-variables. https://stackoverflow.com/questions/11139571/scope-of-a-spring-controller-and-its-instance-variables.
@@ -971,7 +985,7 @@ ii. Na execução de um pedido de método GET para o caminho /index.html.
 iii. Na execução de um pedido de método GET para o caminho /projects.
 iv. Na execução de um pedido de método GET para o caminho /projects.html.**
 
-> i ou iii (depende da interpretação - PERGUNTAR)
+> iii
 
 A resposta correta é a **opção iii**: a avaliação da expressão `window.location.pathname = '/projects'` resultaria em **um pedido de método GET para o caminho `/projects`**.
 
@@ -1094,6 +1108,20 @@ Para mais informações sobre o React Router, você pode consultar a [documenta�
 ### 4
 
 **Descreva os elementos do processo de construção de aplicações usado nesta unidade curricular que permitem a utilização de bibliotecas fornecidas pelo NPM em aplicações para execução no browser.**
+
+
+
+Segundo explicação do professor em aula de dúvidas:
+
+Os elementos do processo são:
+
+- junção de todos os módulos num único, feito pelo bundle
+- no código de cada módulo a usar, é necessário que o mesmo use a função import/require e export
+- todos os módulos são colocados num único ficheiro
+
+
+
+Resposta do Bing copilot:
 
 Para construir aplicações que utilizam bibliotecas fornecidas pelo **NPM** (Node Package Manager) e executam no navegador, é importante entender os seguintes elementos do processo:
 
@@ -1336,22 +1364,11 @@ ii. Tem de resultar numa mensagem de resposta com Content-Type igual a text/json
 iii. Tem de resultar numa mensagem de resposta com Content-Type igual a application/json ou a application/problem+json.
 iv. Pode resultar numa mensagem de resposta com qualque valor de Content-Type.**
 
-> iii ou iv PERGUNTAR
+> iv 
 
-Explicação do Bing copilot, mas nada indica que é obrigatório:
-- O parâmetro `accept=application/json` na URL indica que o cliente espera uma resposta no formato JSON.
-- O servidor deve respeitar essa preferência e, se possível, retornar a resposta no formato especificado.
-- O `Content-Type` na resposta indica o formato real do conteúdo retornado.
-- Se o servidor puder atender à preferência do cliente, ele retornará `application/json`. Caso contrário, ele pode retornar `application/problem+json` para indicar um problema.
 
-Em resumo, o `accept=application/json` na solicitação informa ao servidor sobre a preferência do cliente, e o `Content-Type` na resposta indica o formato real do conteúdo retornado. 😊
 
->Source: Conversation with Bing, 1/7/2024
-(1) HTTP headers "Accept" and "Content-Type" in a REST context. https://stackoverflow.com/questions/35722586/http-headers-accept-and-content-type-in-a-rest-context.
-(2) Content type examples - IBM. https://www.ibm.com/docs/en/hats/9.7.0?topic=content-type-examples.
-(3) HTTP Response API - http.codes. https://http.codes/.
-(4) What is the Correct Content-Type for JSON? Request Header Mime Type .... https://www.freecodecamp.org/news/what-is-the-correct-content-type-for-json-request-header-mime-type-explained/.
-(5) Content Negotiation in a REST API. https://restfulapi.net/content-negotiation/.
+Pode resultar em qualquer media-type definido pela API, logo qualquer Content-type  
 
 ### 1.4
 
@@ -1458,6 +1475,23 @@ Em resumo, a interface uniforme no protocolo HTTP simplifica a comunicação, pe
 ### 3
 
 **Qual o propósito e estrutura do header Link, definido na especificação RFC 8288 - Web Linking.**
+
+
+
+Segundo o professor na aula de dúvidas
+
+- Estrutura:
+  - URi (obrigatório)
+  - rel, indentificador da relação (ex: next, self) (obrigatório)
+  - atributos adicionais (opcional) (ex: title)
+  - media-type (opcional) - para informar como representar o recurso alvo
+- Propósito
+  - fornecer ao cliente informação sobre um recurso relacionado, colocando a informação no header em vez de no body
+- Exemplo de caso de utilização, quando a representação (body) não permite a representação de links
+
+
+
+Resposta do Bing copilot:
 
 O **header Link**, definido na especificação **RFC 8288 - Web Linking**, tem como objetivo fornecer uma maneira padronizada de expressar relacionamentos entre recursos na Web. Ele permite que os servidores comuniquem informações sobre links (relações) associados a um recurso específico. Aqui estão os detalhes sobre o objetivo e a estrutura desse header:
 
@@ -1805,6 +1839,17 @@ Portanto, a utilização de métodos idempotentes é uma prática recomendada pa
 ### 3
 
 **No contexto do desenvolvimento de Single Page Applications, qual o propósito do uso do método preventDefault, presente em objectos evento?**
+
+
+
+Segundo o professor na aula de dúvidas as razões são:
+
+- queremos manter o mesmo documento e não trocar por outro
+- não queremos submeter (POST), queremos apenas fazer um fetch à API
+
+
+
+Resposta do Bing copilot:
 
 Em **Single Page Applications (SPAs)**, o método `preventDefault()` é frequentemente usado para **cancelar o comportamento padrão** associado a um evento. Vamos explorar por quê:
 
@@ -2365,6 +2410,18 @@ A anotação @Component é uma das chamadas anotações estereotipadas do Spring
 **Tendo em conta que os browsers modernos já suportam o sistema de módulos ECMAScript Modules (ESM),
 qual a relevância de se ainda usar uma ferramenta como o webpack?**
 
+
+
+Segundo aula de dúvidas com o professor:
+
+- browsers modernos já suportam ESM, não é necessário fazer bandling, mas...
+- o uso do webpack é usado para evitar enviar 1 pedido por módulo
+- o uso do webpack é usado para não fornecer o código fonte do módulo
+  - minimização do código (inlegibilidade e menor tamanho - poupa banda)
+  - também ajuda na compilação caso esteja em typescript - esta é feita através da chamada de um louder, pelo webpack, que entende typescript
+
+Resposta do Bing copilot:
+
 Uma ferramenta como o webpack ainda tem relevância para se usar com o sistema de módulos ECMAScript Modules (ESM), pois ela oferece várias vantagens que os browsers modernos não oferecem, tais como:
 
 - **Otimização do código**: O webpack pode processar os módulos ESM para otimizar o código, eliminando os módulos não usados, reduzindo o tamanho dos arquivos, agrupando os módulos em pacotes, etc. Isso melhora a performance e a eficiência da aplicação web¹.
@@ -2677,11 +2734,11 @@ ii. Um valor booleano que indica se o URI para o destino é absoluto ou relativo
 iii. O identificador do recurso alvo do link.
 iv. Nenhuma das anteriores.**
 
-> iv ou i PERGUNTAR!!!
+> iv
 
-O campo **rel** presente num header **Link** é usado para indicar relações entre o recurso atual e outros recursos ¹. O campo **rel** especifica o tipo de relação que o link tem com o recurso atual ¹. Por exemplo, o valor **stylesheet** indica que o link é um estilo para o documento atual ¹. O campo **href** especifica o URI do recurso alvo do link ¹.
+O campo **rel** presente num header **Link** é usado para indicar **relações entre o recurso atual e outros recursos** ¹. O campo **rel** especifica o tipo de relação que o link tem com o recurso atual ¹. Por exemplo, o valor **stylesheet** indica que o link é um estilo para o documento atual ¹. O campo **href** especifica o URI do recurso alvo do link ¹.
 
-Espero ter ajudado! Se você tiver mais alguma dúvida, por favor, não hesite em perguntar.
+
 
 > Source: Conversation with Bing, 1/7/2024
 (1) HTML link rel Attribute - W3Schools. https://www.w3schools.com/tags/att_link_rel.asp.
