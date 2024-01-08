@@ -28,7 +28,25 @@ Uma API Web é um conjunto de funções e procedimentos que permitem a criação
 Handler (presentation layer) <---> Service (Business Logic Layer) <---> Repository (Data Access Layer) <----> RDBMS
 
 - Handler
-  - 
+  - Sabe lidar com um pedido;
+  - Sabe serializar e descerializar ```requests``` e ```responses```
+  - Sabe HTTP
+  - Não tem acesso nem conhece a ```business logic```
+- Service
+  - Contem a ```business logic```
+  - Não sabe HTTP
+  - Não sabe interagir com a DB
+
+- Repository
+  - Sabe interagir com a DB
+  - Não conhece a ```business logic```
+
+- Data Access (DBMS)
+  - Sabe interagir com a DB
+  - Não conhece o ```business logic```
+
+
+
 
 
 
