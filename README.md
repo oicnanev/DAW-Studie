@@ -16,6 +16,10 @@
 5. [TypeScript](5-typescript.md);
 6. [React](6-react.md).
 
+## Summaries
+
+1. [Spring](/summaries/1-Spring.md)
+
 ## Exams
 
 [exams](/exams/)
